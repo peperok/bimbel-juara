@@ -111,11 +111,16 @@ Alur wajib yang harus berjalan dengan data nyata:
 ---
 
 ### Tahap 8: Tayang (Deployment) & Pengumpulan
-- [ ] Deploy aplikasi ke Netlify
+- [x] Siapkan repositori Git & berkas konfigurasi Netlify (`netlify.toml`)
+- [ ] Push kode ke GitHub & hubungkan ke Netlify
+- [ ] Set Environment Variables di Netlify (`NEXT_PUBLIC_FIREBASE_*`)
 - [ ] Daftarkan domain Netlify (misal: `https://xxx.netlify.app`) ke Firebase Authentication **Authorized Domains**
 - [ ] Uji login Google dan 4 akun di alamat Netlify yang sudah tayang
-- [ ] Siapkan berkas pengumpulan:
-  - URL Netlify
+- [x] Siapkan seluruh dokumen pengumpulan:
   - `docs/rancangan.md`
   - `docs/uji.md`
-  - 4 Email akun uji & password
+  - 4 Email akun uji & password:
+    1. Super Admin: `arif@langkahjuara.id`
+    2. Staf: `fira@langkahjuara.id`
+    3. Tutor: `dimas@langkahjuara.id`
+    4. Siswa: `raka@langkahjuara.id`
